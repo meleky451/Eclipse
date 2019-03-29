@@ -1,0 +1,33 @@
+package calss11;
+
+public class Task2 {
+
+	public static void main(String[] args) {
+		
+		
+		String[] country= new String [3];
+		
+		country[0]="Turkey";
+		country[1]="Germany";
+		country[2]="Italt";
+		
+		for(int i=0; i<=3; i++) {
+			System.out.println(country[i]);
+			
+		}
+		String[] capital= new String [3];
+		
+		capital[0]="Ankara";
+		capital[1]="Berlin";
+		capital[2]="paris";
+		 
+		for(int a=0; a<=3; a++) {
+			
+			System.out.println(country==capital);
+		}
+		
+		
+		
+	}
+
+}

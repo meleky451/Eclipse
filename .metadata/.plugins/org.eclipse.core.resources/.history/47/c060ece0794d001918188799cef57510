@@ -1,0 +1,36 @@
+package calss11;
+
+public class Recap1 {
+
+	public static void main(String[] args) {
+   
+		
+		
+		String[]names1=new String[6];
+		
+		names1 [0]="Asel";
+		names1 [1]="Awet";
+		names1 [2]="Arif";
+		names1 [3]="Wegas";
+		names1 [4]="Dzmitri";
+		names1 [5]="Shiva"; //names will get an runtime exception when trying to access it
+		names1 [6]="Snadesh";
+		
+		
+		for( int i=0; i<=names1.length; i++) {
+			System.out.println(names1[i]);
+		}
+		
+		//2. create an array using array literal
+		
+		String[] studentNames= {"Shaban", "Bilal", "Mehmet", "Zaki", "Samir", "Frank" };
+		
+		for (int i=0; i<=studentNames.length; i++) {
+			System.out.println(studentNames[i]);
+			
+		}
+		
+
+	}
+
+}

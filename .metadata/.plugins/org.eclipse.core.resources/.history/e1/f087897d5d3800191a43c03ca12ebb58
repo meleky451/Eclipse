@@ -1,0 +1,24 @@
+package class4;
+
+import java.util.Scanner;
+
+public class excercise1 {
+
+	public static void main(String[] args) {
+		
+	Scanner input=new Scanner (System.in);
+	
+	System.out.println("Kac paraya ihtiyacin var");
+	
+	int borc=input.nextint();
+	 if(borc<2000) {
+		 System.out.println("parayi kabul etik");
+	}else {
+		System.out.println("parayi kabul etmedik");
+	}
+	
+	
+	
+	}
+
+}

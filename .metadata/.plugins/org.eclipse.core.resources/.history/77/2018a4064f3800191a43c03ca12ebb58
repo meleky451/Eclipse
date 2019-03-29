@@ -1,0 +1,16 @@
+package class4;
+
+public class ScannerClass1 {
+
+	public static void main(String[] args) {
+		// ask user for the name and print Good morning--
+		
+		scanner input=new scanner(System.in);
+		System.out.println("Please enter your nam");
+		
+		String name=input.nextline();
+		System.out.println("Good morning" +name);
+		
+	}
+
+}

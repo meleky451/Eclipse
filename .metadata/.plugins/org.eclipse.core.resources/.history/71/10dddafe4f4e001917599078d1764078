@@ -1,0 +1,25 @@
+package class12;
+
+public class StringManipulations2 {
+
+	public static void main(String[] args) {
+		
+		
+		
+		String str="Good morning students!";
+		boolean contains=str.contains("Morning");
+		System.out.println(contains);
+	 
+	String present="Welcome,Asel";
+	String needValue="Welcome,";
+	
+	
+	boolean flag=present.contains("Welcome,");
+	System.out.println(flag);
+			
+	
+	}
+	
+	
+
+}

@@ -1,0 +1,24 @@
+package class12;
+
+public class task12 {
+
+	public static void main(String[] args) {
+		
+		//write a program each array
+		
+		int [][] ar= {{1,2,3,},{4,5,6,},{7,8}};
+		
+		 
+     
+     System.out.println(ar.length);
+     System.out.println(ar[0].length);
+     System.out.println(ar[1].length);
+     System.out.println(ar[2].length);
+     }
+ 
+		
+		
+
+	}
+
+
