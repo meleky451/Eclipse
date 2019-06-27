@@ -1,0 +1,7 @@
+<suite name="One">
+<test name="Two">
+<classes>
+<class name="class3.MethodsExample"/>
+</classes>
+</test>
+</suite>

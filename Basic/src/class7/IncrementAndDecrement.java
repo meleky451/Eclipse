@@ -22,7 +22,7 @@ public class IncrementAndDecrement {
 		int c=z--;// first assign-->decrement(int c=z; z=z-1)
 		 System.out.println(z);//9
 		 System.out.println(c);//10
-		
+	
 		
 		
 		

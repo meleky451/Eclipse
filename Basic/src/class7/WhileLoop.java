@@ -23,6 +23,7 @@ public class WhileLoop {
 		  
 		  int z=10;
 		  while (z<=20){
+			  z++;
 			  
 			  
 		  

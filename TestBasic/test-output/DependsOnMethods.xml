@@ -1,0 +1,9 @@
+<suite name="melek">
+<test name= "melekk">
+
+<classes>
+<class name="class3.DependsOnMethods">
+</class>
+</classes>
+</test>
+</suite>

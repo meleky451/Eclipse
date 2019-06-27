@@ -8,7 +8,7 @@ public class LinkText {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/eminyavuz/Selenium/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "src/driver/chromedriver");
 		
 		WebDriver driver=new ChromeDriver();
 		
@@ -16,7 +16,7 @@ public class LinkText {
         Thread.sleep(3000);
         //driver.findElement(By.linkText("Link Test")).click();
         driver.findElement(By.partialLinkText("Partial Link")).click();
-		
+		driver.quit();
 	}
 
 }

@@ -1,0 +1,14 @@
+<suite name="melek">
+<test name="mustafa">
+<groups>
+<run>
+<include name="Smoke"/>
+<include name="Regression"/>
+
+</run>
+</groups>
+<classes>
+<class name="class3.GroupsExample"/>
+</classes>
+</test>
+</suite>

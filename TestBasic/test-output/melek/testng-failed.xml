@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [melek]">
+  <test thread-count="5" name="yavuz(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="class3.NewtoursExample">
+        <methods>
+          <include name="mailingInformation"/>
+        </methods>
+      </class> <!-- class3.NewtoursExample -->
+    </classes>
+  </test> <!-- yavuz(failed) -->
+</suite> <!-- Failed suite [melek] -->
